@@ -9,6 +9,7 @@ pipeline {
                     reuseNode true
                 }
             }
+
             steps {
                 sh '''
                     ls -la
@@ -27,7 +28,7 @@ pipeline {
                     reuseNode true
                 }
             }
-
+            
             steps {
                 sh'''
                 test -f build/index.html
