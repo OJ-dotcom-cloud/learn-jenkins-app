@@ -13,7 +13,6 @@ pipeline {
                 sh '''
                     ls -la
                     node -v
-                    docker -v
                     npm -v
                     npm ci
                     npm run build
